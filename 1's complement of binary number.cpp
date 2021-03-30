@@ -26,7 +26,7 @@ class binary
 				}
 			}
 		}
-		void complement(void)
+		void complement(void)	// steps to complement the given number using 1's complement.
 		{
 			int i;
 			checknumber();
@@ -43,7 +43,7 @@ class binary
 				
 			}
 		}
-		void displaycomp(void)
+		void displaycomp(void)	//display the number which is complemented using 1's complement.
 		{
 			complement();
 			cout<<"\nthe 1'complement of given number is :";
